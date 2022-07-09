@@ -145,10 +145,12 @@ button:hover {
     align-items: center;
     flex-direction: column ;
     gap: 20px;
+    background-color:pink;
    
     padding: 20px 0;
 }
 .ofertas-carteras{
+    
     display: flex;
     gap: 30px;
     
@@ -197,7 +199,7 @@ button:hover {
     width: 200px;
     height: 300px;
     gap: 20px;
-    background-color:fuchsia;
+    background-color:pink;
     border: 1px solid fuchsia;
 }
 
