@@ -28,7 +28,7 @@ body {
     
 }
 button {
-    background-color: yellow;
+    background-color: orange;
     border: 0px solid black;
     outline: none;
     width: 180px;
@@ -48,8 +48,23 @@ button:hover {
 #toggle-menu{
     display: none;
 }
+.p-precio{
+    font-size: 20px;
+}
+.p-tachado{
+    font-weight: 600;
+    text-decoration:line-through;
+    color:rgba(255, 0, 0, 0.727);
+}
+
+.cursor{
+    cursor: pointer;
+}
+/**************************/
 
 .header-container{
+    position: sticky;
+    top: 0;
     background-color:black;
     display: flex;
     justify-content: center;
@@ -91,7 +106,7 @@ button:hover {
 }
 
 .navbar-list a{
-    
+    font-weight: 550;
     font-size:1.4rem ;
 }
 
@@ -323,4 +338,56 @@ button:hover {
 .producto-mujer img{
     height: 200px;
     width: 100%;
+}
+/*********************************************/
+ 
+.footer{
+    padding: 10px 0;
+    background-color:#fd611a;
+    display: grid;
+    
+    grid-template-columns:1fr 1fr 1fr ;
+    
+    
+
+}
+
+.elemento{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right:2px solid white;
+}
+
+.elemento:nth-child(1){
+    display: flex;
+    gap: 10px;
+}
+.elemento:nth-child(2){
+    display: flex;
+    gap: 20px;
+    
+}
+.elemento:nth-child(3){
+    display: flex;
+    gap: 20px;
+    
+}
+.boton-arrepentimiento{
+    text-decoration: underline;
+}
+
+.footer{
+    width: 100%;
+}
+.footer-social i{
+    height:30px ;
+    width:30px ;
+
+    padding: 6px;
+    background-color: black;
+    
+    border: 1px solid black;
+    border-radius: 100%;
 }
