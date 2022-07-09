@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Nunito", sans-serif;
+}
+html {
+    scroll-behavior: smooth;/*para que cuando se seleccione un seccione 
+                            , no vaya tan bruco*/
+    scroll-padding-top: 100px; /*Tamaño del header*/
+}
+html {
+    scroll-behavior: smooth;/*para que cuando se seleccione un seccione 
+                            , no vaya tan bruco*/
+    scroll-padding-top: 100px; /*Tamaño del header*/
+}
+
+body {
+    width: 100%;
+    color: white;
+}
+
+.section-container {/*todo*/
+  
+    background-color: white;
+    
+}
+button {
+    background-color: yellow;
+    border: 0px solid black;
+    outline: none;
+    width: 180px;
+    height: 40px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.4s linear;
+}
+  
+button:hover {
+    background-color: #c79900;
+    transition: all 0.4s linear;
+}
