@@ -44,3 +44,283 @@ button:hover {
     background-color: #c79900;
     transition: all 0.4s linear;
 }
+
+#toggle-menu{
+    display: none;
+}
+
+.header-container{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    padding: 0 20px;
+    width: 80%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.logo-container{
+    height: 100%;
+}
+.logo{
+    height: 100%;
+}
+
+.navbar{
+    width:500px;
+    display: flex;
+    align-items: center;
+    
+}
+.menu-hamburguesa{
+    display: none;
+}
+.navbar-list{
+    width: 100%;
+    
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-list a{
+    
+    font-size:1.4rem ;
+}
+
+.buscador-carrito-login{
+    display: flex;
+    gap: 20px;
+}
+
+/********************************/
+.anuncio-conteiner{
+    width: 100%;
+    background-color: blue;
+}
+
+.img-ofertas{
+    width: 100%;
+
+}
+.img-ofertas img {
+    width: 100%;
+    height: 500px;
+}
+
+.anuncio-entrega{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 50px;
+}
+
+/*******************************/
+.carteras-conteiner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column ;
+    gap: 20px;
+   
+    padding: 20px 0;
+}
+.ofertas-carteras{
+    display: flex;
+    gap: 30px;
+    
+}
+.producto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 200px;
+    height: 300px;
+    gap: 20px;
+    border: 1px solid violet;
+    background-color: blueviolet;
+}
+
+.producto img{
+    height: 200px;
+    width: 100%;
+}
+.precios{
+    display: flex;
+    gap: 10px;
+}
+
+/***************************************/
+.novedades-conteiner{
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blueviolet;
+    gap: 15px;
+}
+.novedades{
+    display: flex;
+    gap: 30px;
+   
+}
+
+.novedad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 200px;
+    height: 300px;
+    gap: 20px;
+    background-color:fuchsia;
+    border: 1px solid fuchsia;
+}
+
+.novedad img{
+    height: 200px;
+    width: 100%;
+}
+/************************************************/
+.section-montania{
+    width: 100%;
+    height: 400px;
+   
+    display: flex;
+}
+.imagen-montania{
+    height: 100%;
+    width: 40%;
+
+}
+.imagen-montania img {
+    width: 100%;
+    height: 100%;
+}
+.conteiner-montania{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-end;
+    background-color:rgb(255, 204, 0);
+    gap: 20px;
+    width: 60%;
+}
+.productos-montania{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-right: 100px;
+
+}
+
+/***********************************/
+.section-lluvia{
+    width: 100%;
+    height: 400px;
+    
+    display: flex;
+}
+
+.conteiner-lluvia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    background-color: rosybrown;
+    gap: 20px;
+    width: 70%;
+}
+.productos-lluvia{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-left: 100px;
+
+}
+.imagen-lluvia{
+    height: 100%;
+    width: 30%;
+
+}
+.imagen-lluvia img {
+    width: 100%;
+    height: 100%;
+}
+/***************************************/
+
+.container-hombre{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column ;
+    gap: 20px;
+    background-color:black;
+    padding: 20px 0;
+}
+.productos-hombre{
+    display: flex;
+    gap: 30px;
+    
+}
+.producto-hombre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 200px;
+    height: 300px;
+    gap: 20px;
+    background-color:gray;
+}
+
+.producto-hombre img{
+    height: 200px;
+    width: 100%;
+}
+/*****************************/
+
+.container-mujer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column ;
+    gap: 20px;
+    background-color: #c79900;
+    padding: 20px 0;
+}
+.productos-mujer{
+    display: flex;
+    gap: 30px;
+   
+}
+.producto-mujer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 200px;
+    height: 300px;
+    gap: 20px;
+    background-color: cornflowerblue;
+}
+
+.producto-mujer img{
+    height: 200px;
+    width: 100%;
+}
