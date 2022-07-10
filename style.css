@@ -1,4 +1,5 @@
 *{
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -144,10 +145,10 @@ button:hover {
     display: flex;
     align-items: center;
     flex-direction: column ;
-    gap: 20px;
+    gap: 40px;
     background-color:pink;
    
-    padding: 20px 0;
+    padding: 80px 0;
 }
 .ofertas-carteras{
     
@@ -156,6 +157,7 @@ button:hover {
     
 }
 .producto{
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -178,12 +180,12 @@ button:hover {
 
 /***************************************/
 .novedades-conteiner{
-    padding: 15px 0;
+    padding: 80px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: blueviolet;
-    gap: 15px;
+    gap: 40px;
 }
 .novedades{
     display: flex;
@@ -284,15 +286,20 @@ button:hover {
 .container-hombre{
     width: 100%;
     display: flex;
+    
     align-items: center;
     flex-direction: column ;
     gap: 20px;
     background-color:black;
-    padding: 20px 0;
+    padding: 50px 0;
 }
-.productos-hombre{
+.productos-hombre{  
     display: flex;
-    gap: 30px;
+    max-width: 1020px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
     
 }
 .producto-hombre{
@@ -300,14 +307,16 @@ button:hover {
     flex-direction: column;
     align-items: center;
     justify-content: start;
-    width: 200px;
-    height: 300px;
+    border-radius: 20px;
+    width: 300px;
+    height: 400px;
     gap: 20px;
     background-color:gray;
 }
 
 .producto-hombre img{
-    height: 200px;
+    border-radius: 20px 20px 0 0;
+    height: 65%;
     width: 100%;
 }
 /*****************************/
@@ -319,11 +328,16 @@ button:hover {
     flex-direction: column ;
     gap: 20px;
     background-color: #c79900;
-    padding: 20px 0;
+    padding: 50px 0;
 }
 .productos-mujer{
     display: flex;
-    gap: 30px;
+    max-width: 1020px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+
    
 }
 .producto-mujer{
@@ -331,14 +345,17 @@ button:hover {
     flex-direction: column;
     align-items: center;
     justify-content: start;
-    width: 200px;
-    height: 300px;
+    border-radius: 20px;
+    width: 300px;
+    height: 400px;
     gap: 20px;
     background-color: cornflowerblue;
 }
 
 .producto-mujer img{
-    height: 200px;
+
+    border-radius: 20px 20px 0 0;
+    height: 70%;
     width: 100%;
 }
 /*********************************************/
@@ -393,3 +410,40 @@ button:hover {
     border: 1px solid black;
     border-radius: 100%;
 }
+/***************************************/
+@keyframes animacion{
+    0%{
+        transform: scale(10px 10px);
+        transform: scaleX(0);
+
+    }
+    100%{
+
+    }
+}
+
+/************************************/
+@media(max-width: 520px){
+
+    .menu-hamburguesa {
+        display: flex;
+        font-size: 2rem;
+        background-color: #fd611a;
+
+    }
+
+    .navbar-list{
+        display: none;
+    }
+
+    .ofertas-carteras{
+        flex-wrap: wrap;
+    }
+    .novedades{
+        flex-wrap: wrap;
+    }
+
+    
+
+}
+
